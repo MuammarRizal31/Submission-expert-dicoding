@@ -1,0 +1,68 @@
+@media screen and (max-width: 576px) {
+  .jumbotron {
+    justify-content: center;
+    background-image: url("./heros/hero-image_4-600.jpg");
+  }
+
+  .restaurant .row {
+    grid-template-columns: repeat(1, auto);
+    width: 100%;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+
+  .logo a {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  .navbar .nav-list {
+    width: 50px;
+  }
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+  }
+
+  .logo a {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .nav-items {
+    flex-direction: column;
+    position: absolute;
+    right: -50%;
+    top: 58px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 0 0 0 30px;
+    transition: 0.5s;
+  }
+
+  .nav-itemss {
+    position: absolute;
+    right: 0;
+  }
+
+  /* jumbotron */
+  .jumbotron {
+    background-position: center;
+    justify-content: center;
+  }
+  .hero-section {
+    width: 100%;
+  }
+  /* card list */
+  .row {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+}
